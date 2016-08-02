@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341CE46A1D50E8E400D7650D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4691D50E8E400D7650D /* AppDelegate.swift */; };
+		341CE46C1D50E8E400D7650D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE46B1D50E8E400D7650D /* ViewController.swift */; };
+		341CE46F1D50E8E400D7650D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341CE46D1D50E8E400D7650D /* Main.storyboard */; };
+		341CE4711D50E8E400D7650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341CE4701D50E8E400D7650D /* Assets.xcassets */; };
+		341CE4741D50E8E400D7650D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341CE4721D50E8E400D7650D /* LaunchScreen.storyboard */; };
+		341CE4821D50E98600D7650D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 341CE4811D50E98600D7650D /* NotificationCenter.framework */; };
+		341CE4851D50E98600D7650D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4841D50E98600D7650D /* TodayViewController.swift */; };
+		341CE4881D50E98600D7650D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341CE4861D50E98600D7650D /* MainInterface.storyboard */; };
+		341CE48C1D50E98600D7650D /* TodoistExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 341CE47F1D50E98600D7650D /* TodoistExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		341CE4921D50EB2600D7650D /* TodoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4911D50EB2600D7650D /* TodoListTableViewController.swift */; };
+		341CE49B1D50F22200D7650D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341CE4991D50F22200D7650D /* Interface.storyboard */; };
+		341CE49D1D50F22200D7650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341CE49C1D50F22200D7650D /* Assets.xcassets */; };
+		341CE4A41D50F22200D7650D /* TodoistWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 341CE4A31D50F22200D7650D /* TodoistWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		341CE4AB1D50F22200D7650D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4AA1D50F22200D7650D /* InterfaceController.swift */; };
+		341CE4AD1D50F22200D7650D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4AC1D50F22200D7650D /* ExtensionDelegate.swift */; };
+		341CE4AF1D50F22200D7650D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4AE1D50F22200D7650D /* NotificationController.swift */; };
+		341CE4B11D50F22200D7650D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341CE4B01D50F22200D7650D /* Assets.xcassets */; };
+		341CE4B51D50F22200D7650D /* TodoistWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 341CE4971D50F22200D7650D /* TodoistWatch.app */; };
+		341CE4C51D50F5F800D7650D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341CE4C41D50F5F800D7650D /* KeyboardViewController.swift */; };
+		341CE4C91D50F5F800D7650D /* TodoistKeyboardExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 341CE4C21D50F5F800D7650D /* TodoistKeyboardExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		341CE48A1D50E98600D7650D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341CE45E1D50E8E400D7650D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341CE47E1D50E98600D7650D;
+			remoteInfo = TodoistExtension;
+		};
+		341CE4A51D50F22200D7650D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341CE45E1D50E8E400D7650D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341CE4A21D50F22200D7650D;
+			remoteInfo = "TodoistWatch Extension";
+		};
+		341CE4B31D50F22200D7650D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341CE45E1D50E8E400D7650D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341CE4961D50F22200D7650D;
+			remoteInfo = TodoistWatch;
+		};
+		341CE4C71D50F5F800D7650D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 341CE45E1D50E8E400D7650D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 341CE4C11D50F5F800D7650D;
+			remoteInfo = TodoistKeyboardExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		341CE4901D50E98600D7650D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				341CE4C91D50F5F800D7650D /* TodoistKeyboardExtension.appex in Embed App Extensions */,
+				341CE48C1D50E98600D7650D /* TodoistExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4B91D50F22200D7650D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				341CE4A41D50F22200D7650D /* TodoistWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4BD1D50F22200D7650D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				341CE4B51D50F22200D7650D /* TodoistWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		341CE4661D50E8E400D7650D /* Todoist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		341CE4691D50E8E400D7650D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		341CE46B1D50E8E400D7650D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		341CE46E1D50E8E400D7650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341CE4701D50E8E400D7650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341CE4731D50E8E400D7650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341CE4751D50E8E400D7650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341CE47F1D50E98600D7650D /* TodoistExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodoistExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		341CE4811D50E98600D7650D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		341CE4841D50E98600D7650D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		341CE4871D50E98600D7650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		341CE4891D50E98600D7650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341CE4911D50EB2600D7650D /* TodoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListTableViewController.swift; sourceTree = "<group>"; };
+		341CE4931D50EEC100D7650D /* Todoist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Todoist.entitlements; sourceTree = "<group>"; };
+		341CE4941D50EF4100D7650D /* TodoistExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = TodoistExtension.entitlements; sourceTree = "<group>"; };
+		341CE4971D50F22200D7650D /* TodoistWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoistWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		341CE49A1D50F22200D7650D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		341CE49C1D50F22200D7650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341CE49E1D50F22200D7650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341CE4A31D50F22200D7650D /* TodoistWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TodoistWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		341CE4A91D50F22200D7650D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		341CE4AA1D50F22200D7650D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		341CE4AC1D50F22200D7650D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		341CE4AE1D50F22200D7650D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		341CE4B01D50F22200D7650D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341CE4B21D50F22200D7650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341CE4C21D50F5F800D7650D /* TodoistKeyboardExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TodoistKeyboardExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		341CE4C41D50F5F800D7650D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		341CE4C61D50F5F800D7650D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341CE4631D50E8E400D7650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE47C1D50E98600D7650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4821D50E98600D7650D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4A01D50F22200D7650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4BF1D50F5F800D7650D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		341CE45D1D50E8E400D7650D = {
+			isa = PBXGroup;
+			children = (
+				341CE4681D50E8E400D7650D /* Todoist */,
+				341CE4831D50E98600D7650D /* TodoistExtension */,
+				341CE4981D50F22200D7650D /* TodoistWatch */,
+				341CE4A71D50F22200D7650D /* TodoistWatch Extension */,
+				341CE4C31D50F5F800D7650D /* TodoistKeyboardExtension */,
+				341CE4801D50E98600D7650D /* Frameworks */,
+				341CE4671D50E8E400D7650D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		341CE4671D50E8E400D7650D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4661D50E8E400D7650D /* Todoist.app */,
+				341CE47F1D50E98600D7650D /* TodoistExtension.appex */,
+				341CE4971D50F22200D7650D /* TodoistWatch.app */,
+				341CE4A31D50F22200D7650D /* TodoistWatch Extension.appex */,
+				341CE4C21D50F5F800D7650D /* TodoistKeyboardExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341CE4681D50E8E400D7650D /* Todoist */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4931D50EEC100D7650D /* Todoist.entitlements */,
+				341CE4691D50E8E400D7650D /* AppDelegate.swift */,
+				341CE46B1D50E8E400D7650D /* ViewController.swift */,
+				341CE46D1D50E8E400D7650D /* Main.storyboard */,
+				341CE4701D50E8E400D7650D /* Assets.xcassets */,
+				341CE4721D50E8E400D7650D /* LaunchScreen.storyboard */,
+				341CE4751D50E8E400D7650D /* Info.plist */,
+			);
+			path = Todoist;
+			sourceTree = "<group>";
+		};
+		341CE4801D50E98600D7650D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4811D50E98600D7650D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		341CE4831D50E98600D7650D /* TodoistExtension */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4941D50EF4100D7650D /* TodoistExtension.entitlements */,
+				341CE4841D50E98600D7650D /* TodayViewController.swift */,
+				341CE4861D50E98600D7650D /* MainInterface.storyboard */,
+				341CE4891D50E98600D7650D /* Info.plist */,
+				341CE4911D50EB2600D7650D /* TodoListTableViewController.swift */,
+			);
+			path = TodoistExtension;
+			sourceTree = "<group>";
+		};
+		341CE4981D50F22200D7650D /* TodoistWatch */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4991D50F22200D7650D /* Interface.storyboard */,
+				341CE49C1D50F22200D7650D /* Assets.xcassets */,
+				341CE49E1D50F22200D7650D /* Info.plist */,
+			);
+			path = TodoistWatch;
+			sourceTree = "<group>";
+		};
+		341CE4A71D50F22200D7650D /* TodoistWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4AA1D50F22200D7650D /* InterfaceController.swift */,
+				341CE4AC1D50F22200D7650D /* ExtensionDelegate.swift */,
+				341CE4AE1D50F22200D7650D /* NotificationController.swift */,
+				341CE4B01D50F22200D7650D /* Assets.xcassets */,
+				341CE4B21D50F22200D7650D /* Info.plist */,
+				341CE4A81D50F22200D7650D /* Supporting Files */,
+			);
+			path = "TodoistWatch Extension";
+			sourceTree = "<group>";
+		};
+		341CE4A81D50F22200D7650D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4A91D50F22200D7650D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		341CE4C31D50F5F800D7650D /* TodoistKeyboardExtension */ = {
+			isa = PBXGroup;
+			children = (
+				341CE4C41D50F5F800D7650D /* KeyboardViewController.swift */,
+				341CE4C61D50F5F800D7650D /* Info.plist */,
+			);
+			path = TodoistKeyboardExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341CE4651D50E8E400D7650D /* Todoist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341CE4781D50E8E400D7650D /* Build configuration list for PBXNativeTarget "Todoist" */;
+			buildPhases = (
+				341CE4621D50E8E400D7650D /* Sources */,
+				341CE4631D50E8E400D7650D /* Frameworks */,
+				341CE4641D50E8E400D7650D /* Resources */,
+				341CE4901D50E98600D7650D /* Embed App Extensions */,
+				341CE4BD1D50F22200D7650D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341CE48B1D50E98600D7650D /* PBXTargetDependency */,
+				341CE4B41D50F22200D7650D /* PBXTargetDependency */,
+				341CE4C81D50F5F800D7650D /* PBXTargetDependency */,
+			);
+			name = Todoist;
+			productName = Todoist;
+			productReference = 341CE4661D50E8E400D7650D /* Todoist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		341CE47E1D50E98600D7650D /* TodoistExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341CE48D1D50E98600D7650D /* Build configuration list for PBXNativeTarget "TodoistExtension" */;
+			buildPhases = (
+				341CE47B1D50E98600D7650D /* Sources */,
+				341CE47C1D50E98600D7650D /* Frameworks */,
+				341CE47D1D50E98600D7650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoistExtension;
+			productName = TodoistExtension;
+			productReference = 341CE47F1D50E98600D7650D /* TodoistExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		341CE4961D50F22200D7650D /* TodoistWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341CE4BA1D50F22200D7650D /* Build configuration list for PBXNativeTarget "TodoistWatch" */;
+			buildPhases = (
+				341CE4951D50F22200D7650D /* Resources */,
+				341CE4B91D50F22200D7650D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				341CE4A61D50F22200D7650D /* PBXTargetDependency */,
+			);
+			name = TodoistWatch;
+			productName = TodoistWatch;
+			productReference = 341CE4971D50F22200D7650D /* TodoistWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		341CE4A21D50F22200D7650D /* TodoistWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341CE4B61D50F22200D7650D /* Build configuration list for PBXNativeTarget "TodoistWatch Extension" */;
+			buildPhases = (
+				341CE49F1D50F22200D7650D /* Sources */,
+				341CE4A01D50F22200D7650D /* Frameworks */,
+				341CE4A11D50F22200D7650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TodoistWatch Extension";
+			productName = "TodoistWatch Extension";
+			productReference = 341CE4A31D50F22200D7650D /* TodoistWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		341CE4C11D50F5F800D7650D /* TodoistKeyboardExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341CE4CA1D50F5F900D7650D /* Build configuration list for PBXNativeTarget "TodoistKeyboardExtension" */;
+			buildPhases = (
+				341CE4BE1D50F5F800D7650D /* Sources */,
+				341CE4BF1D50F5F800D7650D /* Frameworks */,
+				341CE4C01D50F5F800D7650D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoistKeyboardExtension;
+			productName = TodoistKeyboardExtension;
+			productReference = 341CE4C21D50F5F800D7650D /* TodoistKeyboardExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341CE45E1D50E8E400D7650D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohammad Azam";
+				TargetAttributes = {
+					341CE4651D50E8E400D7650D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B2Q8EGNCQA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					341CE47E1D50E98600D7650D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B2Q8EGNCQA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					341CE4961D50F22200D7650D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B2Q8EGNCQA;
+					};
+					341CE4A21D50F22200D7650D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					341CE4C11D50F5F800D7650D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B2Q8EGNCQA;
+					};
+				};
+			};
+			buildConfigurationList = 341CE4611D50E8E400D7650D /* Build configuration list for PBXProject "Todoist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341CE45D1D50E8E400D7650D;
+			productRefGroup = 341CE4671D50E8E400D7650D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341CE4651D50E8E400D7650D /* Todoist */,
+				341CE47E1D50E98600D7650D /* TodoistExtension */,
+				341CE4961D50F22200D7650D /* TodoistWatch */,
+				341CE4A21D50F22200D7650D /* TodoistWatch Extension */,
+				341CE4C11D50F5F800D7650D /* TodoistKeyboardExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341CE4641D50E8E400D7650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4741D50E8E400D7650D /* LaunchScreen.storyboard in Resources */,
+				341CE4711D50E8E400D7650D /* Assets.xcassets in Resources */,
+				341CE46F1D50E8E400D7650D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE47D1D50E98600D7650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4881D50E98600D7650D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4951D50F22200D7650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE49D1D50F22200D7650D /* Assets.xcassets in Resources */,
+				341CE49B1D50F22200D7650D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4A11D50F22200D7650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4B11D50F22200D7650D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4C01D50F5F800D7650D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341CE4621D50E8E400D7650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE46C1D50E8E400D7650D /* ViewController.swift in Sources */,
+				341CE46A1D50E8E400D7650D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE47B1D50E98600D7650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4851D50E98600D7650D /* TodayViewController.swift in Sources */,
+				341CE4921D50EB2600D7650D /* TodoListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE49F1D50F22200D7650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4AF1D50F22200D7650D /* NotificationController.swift in Sources */,
+				341CE4AD1D50F22200D7650D /* ExtensionDelegate.swift in Sources */,
+				341CE4AB1D50F22200D7650D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341CE4BE1D50F5F800D7650D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341CE4C51D50F5F800D7650D /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		341CE48B1D50E98600D7650D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341CE47E1D50E98600D7650D /* TodoistExtension */;
+			targetProxy = 341CE48A1D50E98600D7650D /* PBXContainerItemProxy */;
+		};
+		341CE4A61D50F22200D7650D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341CE4A21D50F22200D7650D /* TodoistWatch Extension */;
+			targetProxy = 341CE4A51D50F22200D7650D /* PBXContainerItemProxy */;
+		};
+		341CE4B41D50F22200D7650D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341CE4961D50F22200D7650D /* TodoistWatch */;
+			targetProxy = 341CE4B31D50F22200D7650D /* PBXContainerItemProxy */;
+		};
+		341CE4C81D50F5F800D7650D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 341CE4C11D50F5F800D7650D /* TodoistKeyboardExtension */;
+			targetProxy = 341CE4C71D50F5F800D7650D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		341CE46D1D50E8E400D7650D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341CE46E1D50E8E400D7650D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		341CE4721D50E8E400D7650D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341CE4731D50E8E400D7650D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		341CE4861D50E98600D7650D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341CE4871D50E98600D7650D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		341CE4991D50F22200D7650D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341CE49A1D50F22200D7650D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		341CE4761D50E8E400D7650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		341CE4771D50E8E400D7650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341CE4791D50E8E400D7650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Todoist/Todoist.entitlements;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Todoist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		341CE47A1D50E8E400D7650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Todoist/Todoist.entitlements;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = Todoist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		341CE48E1D50E98600D7650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodoistExtension/TodoistExtension.entitlements;
+				INFOPLIST_FILE = TodoistExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.TodoistExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		341CE48F1D50E98600D7650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = TodoistExtension/TodoistExtension.entitlements;
+				INFOPLIST_FILE = TodoistExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.TodoistExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		341CE4B71D50F22200D7650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TodoistWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		341CE4B81D50F22200D7650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TodoistWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		341CE4BB1D50F22200D7650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TodoistWatch_Extension;
+				INFOPLIST_FILE = TodoistWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		341CE4BC1D50F22200D7650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = TodoistWatch_Extension;
+				INFOPLIST_FILE = TodoistWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		341CE4CB1D50F5F900D7650D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodoistKeyboardExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.TodoistKeyboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		341CE4CC1D50F5F900D7650D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodoistKeyboardExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.azamsharp.Todoist.TodoistKeyboardExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341CE4611D50E8E400D7650D /* Build configuration list for PBXProject "Todoist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341CE4761D50E8E400D7650D /* Debug */,
+				341CE4771D50E8E400D7650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341CE4781D50E8E400D7650D /* Build configuration list for PBXNativeTarget "Todoist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341CE4791D50E8E400D7650D /* Debug */,
+				341CE47A1D50E8E400D7650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341CE48D1D50E98600D7650D /* Build configuration list for PBXNativeTarget "TodoistExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341CE48E1D50E98600D7650D /* Debug */,
+				341CE48F1D50E98600D7650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341CE4B61D50F22200D7650D /* Build configuration list for PBXNativeTarget "TodoistWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341CE4B71D50F22200D7650D /* Debug */,
+				341CE4B81D50F22200D7650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341CE4BA1D50F22200D7650D /* Build configuration list for PBXNativeTarget "TodoistWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341CE4BB1D50F22200D7650D /* Debug */,
+				341CE4BC1D50F22200D7650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		341CE4CA1D50F5F900D7650D /* Build configuration list for PBXNativeTarget "TodoistKeyboardExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341CE4CB1D50F5F900D7650D /* Debug */,
+				341CE4CC1D50F5F900D7650D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341CE45E1D50E8E400D7650D /* Project object */;
+}
